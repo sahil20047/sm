@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+
+.logo{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 70%;
+   border-radius: 50px;
+}
+.navbar{
+    display:flex;
+align-items: center;
+justify-content: center;
+position: sticky;
+top: 0;
+cursor: pointer;
+font-family: 'Ubuntu', sans-serif;
+}
+.nav-list{
+width: 50%;
+display: flex;
+align-items: center;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-list li{
+list-style: none;
+padding: 26px 30px;
+font-family: 'Ubuntu', sans-serif;
+
+}
+
+.nav-list li a{
+text-decoration: none;
+color: yellow;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: yellow;
+    font-family: 'Ubuntu', sans-serif;
+    }
+
+.rightNav{
+    width: 50%;
+    text-align: right;
+}
+
+#Search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid yellow;
+    border-radius: 9px;
+}
+.background{
+    background:url('../img/back.jpg');
+    background-size: cover;
+    
+    
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    max-width: 50%;
+    margin: auto;
+    height: %;
+}
+
+.firstHalf{
+width: 80%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.secondHalf{
+width: 20%;
+}
+
+.secondHalf img{
+    width: 300%;
+    border: 4px solid yellow;
+    border-radius: 250px;
+    display: block;
+    margin: auto;
+}
+.text-big{
+font-size: 60px;
+}
+.text-small{
+font-size: 30px;
+}
+.text-small2{
+    font-size: 20px;
+}
+.btn-sm{
+    padding: 3px 10px;
+    vertical-align: middle;
+    
+}
+.secRight{
+    height: 500%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: white;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.secLeft{
+    flex-direction: row-reverse;
+    height: 500%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: white ;
+    max-width: 60%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.paras{
+    padding: 5px 5px;
+}
+
+.contact{
+    background-color: lightgray;
+}
+.text-center{
+    text-align: center;
+}
+.form{
+    max-width: 344px;
+    margin: auto;
+}
+.form-input{
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    padding: 5px 3px;
+    margin: 14px;
+}
+
+.text-footer{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
